@@ -16,7 +16,7 @@ chrome_path = r"C:\Program Files\Google\Chrome\Application\chrome.exe"
 listener = sr.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
-engine.setProperty('voice', voices[1].id)
+engine.setProperty('voice', voices[0].id)
 
 
 def is_url(url):
